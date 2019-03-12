@@ -1,15 +1,15 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://World.gd" type="Script" id=1]
+[ext_resource path="res://Generator.gd" type="Script" id=1]
 
-[node name="World" type="Node2D" index="0"]
+[node name="Generated" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
-room_quantity = 50
+room_quantity = 90
 min_size = 6
 max_size = 15
 horizontal_spread = 400
-delete_chace = 0.5
+delete_chance = 0.5
 
 [node name="Rooms" type="Node" parent="." index="0"]
 
